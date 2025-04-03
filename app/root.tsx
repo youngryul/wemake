@@ -46,10 +46,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
 // 에러가 없을 때만 나오는 화면
 export default function App() {
   return (
-    <>
-      <Navigation />
+    <div className="py-28">
+      <Navigation
+        isLoggedIn={false}
+        hasNotifications={false}
+        hasMessages={false}
+      />
       <Outlet />
-    </>
+    </div>
   );
 }
 
