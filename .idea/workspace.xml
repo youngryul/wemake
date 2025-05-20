@@ -27,7 +27,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/wemake",
+    "last_opened_file_path": "D:/O2O-FE",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +75,15 @@
       <workItem from="1742427229550" duration="9520000" />
       <workItem from="1743035383267" duration="4697000" />
       <workItem from="1743116992687" duration="4252000" />
-      <workItem from="1743645644133" duration="3734000" />
+      <workItem from="1743645644133" duration="6124000" />
+      <workItem from="1743722017808" duration="5452000" />
+      <workItem from="1744007243807" duration="14000" />
+      <workItem from="1744087502928" duration="1561000" />
+      <workItem from="1744089663491" duration="5737000" />
+      <workItem from="1744153558481" duration="5894000" />
+      <workItem from="1744767780518" duration="9000" />
+      <workItem from="1745460037679" duration="2876000" />
+      <workItem from="1747700417994" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="feat: navigation 커스텀 추가">
       <option name="closed" value="true" />
@@ -93,7 +101,31 @@
       <option name="project" value="LOCAL" />
       <updated>1743041411636</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 메인 화면 card 생성">
+      <option name="closed" value="true" />
+      <created>1743668340429</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743668340429</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: card 2개 생성 (ideas, job)">
+      <option name="closed" value="true" />
+      <created>1744088994290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744088994290</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: team card 생성 및 경로 설정">
+      <option name="closed" value="true" />
+      <created>1745465216089</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745465216090</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +145,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: navigation 커스텀 추가" />
     <MESSAGE value="feat: navigation 메뉴 개발 완료" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: navigation 메뉴 개발 완료" />
+    <MESSAGE value="feat: 메인 화면 card 생성" />
+    <MESSAGE value="feat: card 2개 생성 (ideas, job)" />
+    <MESSAGE value="feat: team card 생성 및 경로 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: team card 생성 및 경로 설정" />
   </component>
 </project>
