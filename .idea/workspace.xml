@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6418254b-6ad0-43f9-bf67-2001333a2953" name="Changes" comment="" />
+    <list default="true" id="6418254b-6ad0-43f9-bf67-2001333a2953" name="Changes" comment="feat: user schema 생성">
+      <change afterPath="$PROJECT_DIR$/app/features/products/schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "youngryul"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/youngryul/wemake.git",
+    "accountId": "b3b9b886-dce0-4c7d-ba2d-22e264059ac9"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -25,6 +40,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/couple",
@@ -35,7 +51,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "D:\\wemake\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "D:\\wemake\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "/Users/youngryul/IdeaProjects/wemake/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -55,8 +71,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -84,6 +100,7 @@
       <workItem from="1744767780518" duration="9000" />
       <workItem from="1745460037679" duration="2876000" />
       <workItem from="1747700417994" duration="3534000" />
+      <workItem from="1750076367641" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="feat: navigation 커스텀 추가">
       <option name="closed" value="true" />
@@ -133,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747705651872</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: user schema 생성">
+      <option name="closed" value="true" />
+      <created>1750076993301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750076993301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +182,7 @@
     <MESSAGE value="feat: card 2개 생성 (ideas, job)" />
     <MESSAGE value="feat: team card 생성 및 경로 설정" />
     <MESSAGE value="feat: loader 함수 활용" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: loader 함수 활용" />
+    <MESSAGE value="feat: user schema 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: user schema 생성" />
   </component>
 </project>
