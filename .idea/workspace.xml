@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6418254b-6ad0-43f9-bf67-2001333a2953" name="Changes" comment="feat: user schema 생성">
-      <change afterPath="$PROJECT_DIR$/app/features/products/schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sql/trigger/user_to_profile_trigger.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0000_abandoned_switch.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/migrations/0000_abandoned_switch.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/meta/0000_snapshot.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/migrations/meta/0000_snapshot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/meta/_journal.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/migrations/meta/_journal.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drizzle.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/drizzle.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +20,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "youngryul"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;youngryul&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/youngryul/wemake.git",
-    "accountId": "b3b9b886-dce0-4c7d-ba2d-22e264059ac9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/youngryul/wemake.git&quot;,
+    &quot;accountId&quot;: &quot;b3b9b886-dce0-4c7d-ba2d-22e264059ac9&quot;
   }
-}]]></component>
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -38,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -51,7 +59,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "D:\\wemake\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Users/youngryul/IdeaProjects/wemake/node_modules/typescript/lib",
+    "ts.external.directory.path": "D:\\IntelliJ IDEA 2023.3.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -64,17 +72,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wemake\app\sql" />
       <recent name="D:\wemake\app\common" />
       <recent name="D:\wemake\app" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -101,6 +102,7 @@
       <workItem from="1745460037679" duration="2876000" />
       <workItem from="1747700417994" duration="3534000" />
       <workItem from="1750076367641" duration="1313000" />
+      <workItem from="1750676895793" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="feat: navigation 커스텀 추가">
       <option name="closed" value="true" />
